@@ -14,7 +14,7 @@ response = client.chat.completions.create(
         },
         {
             "role": "user",
-            "content": "What is Python?"
+            "content": "What is a Python dictionary?"
         }
     ]
 )
