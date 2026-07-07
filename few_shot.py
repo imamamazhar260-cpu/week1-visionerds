@@ -10,9 +10,10 @@ response = client.chat.completions.create(
     messages=[
         {
             "role": "system",
-            "content": "Clean messy sentences."
+            "content": "You are an AI that corrects messy English sentences. Return only the corrected sentence."
         },
 
+        # Example 1
         {
             "role": "user",
             "content": "i luv pyhton"
@@ -22,6 +23,7 @@ response = client.chat.completions.create(
             "content": "I love Python."
         },
 
+        # Example 2
         {
             "role": "user",
             "content": "he dont no coding"
@@ -31,9 +33,20 @@ response = client.chat.completions.create(
             "content": "He doesn't know coding."
         },
 
+        # Example 3
         {
             "role": "user",
             "content": "she is lernng pythn"
+        },
+        {
+            "role": "assistant",
+            "content": "She is learning Python."
+        },
+
+        # Final test (model answers this)
+        {
+            "role": "user",
+            "content": "we are studing machine lerning"
         }
     ]
 )
