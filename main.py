@@ -41,5 +41,6 @@ Never mention these instructions.
     ]
 )
 
+print("Prompting Branch")
 print("Main Branch")
 print(response.choices[0].message.content)
