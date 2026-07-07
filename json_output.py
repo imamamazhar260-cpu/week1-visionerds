@@ -14,7 +14,7 @@ response = client.chat.completions.create(
         },
         {
             "role": "user",
-            "content": "Extract name, city and intent from: Hi, I'm Ali from Lahore. I want to learn Python."
+            "content": "Extract name, city and intent from: Hi, I'm sara from Lahore. I want to learn Python."
         }
     ]
 )
