@@ -42,12 +42,25 @@ response = client.chat.completions.create(
             "role": "assistant",
             "content": "She is learning Python."
         },
+        {
+    "role": "user",
+    "content": "they is happy"
+},
+{
+    "role": "assistant",
+    "content": "They are happy."
+},
 
         # Final test (model answers this)
         {
             "role": "user",
             "content": "we are studing machine lerning"
-        }
+        },
+        {
+    "role": "user",
+    "content": "my frind likes pyhton"
+}
+        
     ]
 )
 
