@@ -11,7 +11,7 @@ client = OpenAI(
 )
 
 print("Welcome to Bob - The Grumpy Software Engineer!")
-print("Type 'exit' to quit.\n")
+print("Type 'exit' anytime to end the conversation.\n")
 
 while True:
 
