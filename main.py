@@ -13,6 +13,7 @@ client = OpenAI(
 print("Welcome to Bob - Your Grumpy Coding Mentor!")
 print("Type 'exit' anytime to end the conversation.\n")
 
+
 while True:
 
     user_input = input("You: ")
