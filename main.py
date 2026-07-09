@@ -10,7 +10,7 @@ client = OpenAI(
     api_key=os.getenv("OPENROUTER_API_KEY")
 )
 
-print("Welcome to Bob - The Grumpy Software Engineer!")
+print("Welcome to Bob - Your Grumpy Coding Mentor!")
 print("Type 'exit' anytime to end the conversation.\n")
 
 while True:
